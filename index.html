@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencarian File Gambar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div
+          class="logo-left"
+          onclick="window.open('https://uhnsugriwa.ac.id/');"
+          style="cursor: pointer"
+        >
+          <img src="logo/LOGO UHN.png" alt="Logo Left" />
+        </div>
+        <div class="title">
+          <h1>BEM FDA</h1>
+        </div>
+        <div
+          class="logo-right"
+          onclick="window.open('https://www.instagram.com/orkemas_fda/');"
+          style="cursor: pointer"
+        >
+          <img src="logo/LOGO ORKEMAS.png" alt="Logo Right" />
+        </div>
+      </header>
+    <div class="container">
+        <h1>SERTIFIKAT BERDONASI FESDING"24</h1>
+        <p>Silahkan masukan nama lengkap atau nama panggilan  anda dan klik <b>Cari</b><br>Contoh: <b>I Made Bem Fda </b>atau <b> Bem Fda</b> (2 kata dari nama anda)</p>
+        <label for="nama">Masukkan Nama Anda:</label>
+        <input type="text" id="nama" name="nama">
+        <button onclick="cariGambar()">Cari</button>
+        <p id="hasil"></p>
+        <a id="downloadButton" href="#" download style="display: none;">Download Sertifikat</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
