@@ -369,7 +369,7 @@ function cariGambar() {
     }
 
     if (!found) {
-        hasil.textContent = "Nama Tidak Ada! \n (bagi yang namanya tidak ada tapi sudah berdonasi, bisa Contact Panitia dengan mengirimkan bukti foto berdonasi/foto buku SKP yg sudah di TTD dan diCAP oleh yang bertugas piket)";
+        hasil.textContent = "Nama Tidak Ada! (bagi yang namanya tidak ada tapi sudah berdonasi, bisa Contact Panitia dengan mengirimkan bukti foto berdonasi/foto buku SKP yg sudah di TTD dan diCAP oleh yang bertugas piket)";
         downloadButton.style.display = "none";
     }
 }
