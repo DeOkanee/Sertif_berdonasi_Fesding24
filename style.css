@@ -2,7 +2,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
     display: flex;
-    justify-content: center;
+    
+    flex-direction: column; /* Menjadikan elemen di dalam body tata letak vertikal */
+    align-items: center; /* Memusatkan elemen-elemen di dalam body secara horizontal */
     height: 100vh;
     margin: 0;
 }
@@ -130,6 +132,7 @@ button:hover {
     .container {
         width: 100%;
         margin-top: 100px;
+        padding: 20px;
     }
 
     input {

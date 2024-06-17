@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SERTIFIKAT BERDONASI FESDING 2024</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cp.css">
 </head>
 <body>
     <header>
@@ -28,7 +29,7 @@
       </header>
     <div class="container">
         <h1>SERTIFIKAT BERDONASI FESDING"24</h1>
-        <p>Silahkan masukan nama lengkap atau nama panggilan  anda dan klik <b>Cari</b><br>Contoh: <b>I Made Bem Fda </b>atau <b> Bem Fda</b> (2 / 3 kata dari nama anda)</p>
+        <br>Silahkan masukan nama lengkap atau nama panggilan  anda dan klik <b>Cari</b><br>Contoh: <b>I Made Bem Fda </b>atau <b> Bem Fda</b> (2 / 3 kata dari nama anda)<br>Saran nama lengkap biar cepat ketemu</br></p>
         <h3>Yang merasa BERDONASI silahkan Cari namanya</h3>
         <label for="nama">Masukkan Nama Anda:</label>
         <input type="text" id="nama" name="nama">
@@ -36,6 +37,90 @@
         <p id="hasil"></p>
         <a id="downloadButton" href="#" download style="display: none;">Download Sertifikat</a>
     </div>
+    <section class="contact">
+        <div class="contact-area">
+          <!-- Kotak Kontak Pertama -->
+       
+          <!-- Kotak Kontak -->
+          <div class="contact-box">
+            <div class="contact-name">Contact Person</div>
+            <a
+              style="cursor: pointer"
+              id="contact-link-contact-us"
+              class="contact-link"
+              >Contact Whatsapp</a
+            >
+            <br />
+            <a
+              id="dwi-septiani-link"
+              style="
+                color: black;
+                margin-top: 10px;
+                background-color: aqua;
+                display: none;
+              "
+              href="https://wa.me/6285904360480?text=Om%20swastyastu%20kak,%20selamat%20[....]%20%0A𝗣𝗲𝗿𝘁𝗮𝗻𝘆𝗮𝗮𝗻:"
+              class="contact-link"
+              onmouseover="this.style.backgroundColor='#22CE83'; this.style.color='white'"
+              onmouseout="this.style.backgroundColor='aqua'; this.style.color='black'"
+              >Arya</a
+            >
+            <a
+              id="surya-dana-link"
+              style="
+                color: black;
+                margin-top: 10px;
+                background-color: aqua;
+                display: none;
+              "
+              href="https://wa.me/6283851005052?text=Om%20swastyastu%20kak,%20selamat%20[....]%20%0A𝗣𝗲𝗿𝘁𝗮𝗻𝘆𝗮𝗮𝗻:"
+              class="contact-link"
+              onmouseover="this.style.backgroundColor='#22CE83'; this.style.color='white'"
+              onmouseout="this.style.backgroundColor='aqua'; this.style.color='black'"
+              >Ilda</a
+            >
+            <a
+              id="edi-suastawan-link"
+              style="
+                color: black;
+                margin-top: 10px;
+                background-color: aqua;
+
+                display: none;
+              "
+              href="https://wa.me/6281999332420?text=Om%20swastyastu%20kak,%20selamat%20[....]%20%0A𝗣𝗲𝗿𝘁𝗮𝗻𝘆𝗮𝗮𝗻:"
+              class="contact-link"
+              onmouseover="this.style.backgroundColor='#22CE83'; this.style.color='white'"
+              onmouseout="this.style.backgroundColor='aqua'; this.style.color='black'"
+              >Anggun</a
+            >
+          </div>
+        </div>
+      </section>
     <script src="script.js"></script>
+    <script>
+         document
+        .getElementById("contact-link-contact-us")
+        .addEventListener("click", function () {
+          var dwiSeptianiLink = document.getElementById("dwi-septiani-link");
+          var suryaDanaLink = document.getElementById("surya-dana-link");
+          var ediSuastawanLink = document.getElementById("edi-suastawan-link");
+
+          dwiSeptianiLink.style.display = "block";
+          suryaDanaLink.style.display = "block";
+          ediSuastawanLink.style.display = "block";
+
+          setTimeout(function () {
+            dwiSeptianiLink.style.display = "none";
+            suryaDanaLink.style.display = "none";
+            ediSuastawanLink.style.display = "none";
+          }, 10000); // 10 detik
+        });
+      //berubah warna saat klk
+      function changeColor(element) {
+        element.style.backgroundColor = "#4CAF50"; // Ubah warna latar menjadi hijau
+        return true; // Kembalikan nilai true untuk menjalankan tindakan bawaan dari tautan
+      }
+    </script>
 </body>
 </html>
