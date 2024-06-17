@@ -362,10 +362,16 @@ function cariGambar() {
             if (key.toLowerCase().indexOf(nama) !== -1) {
                 const folder = dataGambar[key].folder;
                 const file = dataGambar[key].file;
-                hasil.textContent = `Hasil: ${file}`;
-                downloadButton.style.display = "inline-block";
-                downloadButton.href = `${folder}/${file}`; // Pastikan path ini sesuai dengan lokasi folder gambar Anda
-                downloadButton.download = file;
+                hasil.textContent = "Sedang mencari...";
+
+                // Menampilkan pesan "Sedang mendownload..." selama 5 detik
+                setTimeout(() => {
+                    hasil.textContent = `Hasil: ${file}`;
+                    downloadButton.style.display = "inline-block";
+                    downloadButton.href = `${folder}/${file}`; // Pastikan path ini sesuai dengan lokasi folder gambar Anda
+                    downloadButton.download = file;
+                }, 3000);
+
                 found = true;
                 break;
             }
@@ -373,7 +379,6 @@ function cariGambar() {
     }
 
     if (!found) {
-        hasil.textContent = "Nama Tidak Ada! (bagi yang namanya tidak ada tapi sudah berdonasi, bisa Contact Panitia dengan mengirimkan bukti foto berdonasi/foto buku SKP yg sudah di TTD dan diCAP oleh yang bertugas piket)";
+        hasil.textContent = "Nama Tidak Ada! (bagi yang namanya tidak ada tapi sudah berdonasi, bisa Contact Panitia dengan mengirimkan bukti foto berdonasi/foto buku SKP yg sudah di TTD dan diCAP oleh yang bertugas piket)";
     }
 }
-
