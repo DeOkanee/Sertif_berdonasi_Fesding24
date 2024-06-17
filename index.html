@@ -6,6 +6,8 @@
     <title>SERTIFIKAT BERDONASI FESDING 2024</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cp.css">
+    <!-- Tambahkan link ke Sweet Alert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <body>
     <header>
@@ -26,7 +28,7 @@
         >
           <img src="logo/LOGO ORKEMAS.png" alt="Logo Right" />
         </div>
-      </header>
+    </header>
     <div class="container">
         <h1>SERTIFIKAT BERDONASI FESDING"24</h1>
         <br>Silahkan masukan nama lengkap atau nama panggilan  anda dan klik <b>Cari</b><br>Contoh: <b>I Made Bem Fda </b>atau <b> Bem Fda</b> (2 / 3 kata dari nama anda)<br>Saran nama lengkap biar cepat ketemu</br></p>
@@ -98,8 +100,20 @@
         </div>
       </section>
     <script src="script.js"></script>
+    <!-- Tambahkan script Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-         document
+        // Tampilkan Sweet Alert saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            Swal.fire({
+                icon: 'info',
+            
+                text: 'Harap buka di Chrome atau Browser, karena Instagram tidak bisa mendownload di aplikasi Instagram',
+                footer: 'Terima kasih'
+            });
+        });
+
+        document
         .getElementById("contact-link-contact-us")
         .addEventListener("click", function () {
           var dwiSeptianiLink = document.getElementById("dwi-septiani-link");
