@@ -1,4 +1,6 @@
 // Contoh data nama dan nama file gambar dengan foldernya
+// DENPASAR
+
 const dataGambar = {
   "I Kadek Adinata": { folder: "dps", file: "I Kadek Adinata.png" },
   "Sinta Tri Lestari": { folder: "dps", file: "Sinta Tri Lestari.png" },
@@ -165,6 +167,9 @@ const dataGambar = {
   "Ni Made Desi Trisnawati": {
     folder: "dps",
     file: "Ni Made Desi Trisnawati.png",
+
+//BANGLI
+
   },
   "Ni Wayan Harini": { folder: "bangli", file: "Ni Wayan Harini.png" },
   "Ni Kadek Sri Surya Ningsih": {
@@ -341,44 +346,45 @@ const dataGambar = {
 };
 
 function cariGambar() {
-    const nama = document.getElementById("nama").value.trim().toLowerCase();
-    const hasil = document.getElementById("hasil");
-    const downloadButton = document.getElementById("downloadButton");
+  const nama = document.getElementById("nama").value.trim().toLowerCase();
+  const hasil = document.getElementById("hasil");
+  const downloadButton = document.getElementById("downloadButton");
 
-    // Membersihkan hasil sebelum pencarian baru
-    hasil.textContent = "";
-    downloadButton.style.display = "none";
+  // Membersihkan hasil sebelum pencarian baru
+  hasil.textContent = "";
+  downloadButton.style.display = "none";
 
-    if (nama === "") {
-        hasil.textContent = "Silahkan masukkan nama yang akan dicari";
-        return; // Keluar dari fungsi jika input kosong
+  if (nama === "") {
+    hasil.textContent = "Silahkan masukkan nama yang akan dicari";
+    return; // Keluar dari fungsi jika input kosong
+  }
+
+  let found = false;
+
+  for (let key in dataGambar) {
+    if (dataGambar.hasOwnProperty(key)) {
+      // Menggunakan metode pencarian yang sederhana
+      if (key.toLowerCase().indexOf(nama) !== -1) {
+        const folder = dataGambar[key].folder;
+        const file = dataGambar[key].file;
+        hasil.textContent = "Sedang mencari...";
+
+        // Menampilkan pesan "Sedang mendownload..." selama 5 detik
+        setTimeout(() => {
+          hasil.textContent = `Hasil: ${file}`;
+          downloadButton.style.display = "inline-block";
+          downloadButton.href = `${folder}/${file}`; // Pastikan path ini sesuai dengan lokasi folder gambar Anda
+          downloadButton.download = file;
+        }, 3000);
+
+        found = true;
+        break;
+      }
     }
+  }
 
-    let found = false;
-
-    for (let key in dataGambar) {
-        if (dataGambar.hasOwnProperty(key)) {
-            // Menggunakan metode pencarian yang sederhana
-            if (key.toLowerCase().indexOf(nama) !== -1) {
-                const folder = dataGambar[key].folder;
-                const file = dataGambar[key].file;
-                hasil.textContent = "Sedang mencari...";
-
-                // Menampilkan pesan "Sedang mendownload..." selama 5 detik
-                setTimeout(() => {
-                    hasil.textContent = `Hasil: ${file}`;
-                    downloadButton.style.display = "inline-block";
-                    downloadButton.href = `${folder}/${file}`; // Pastikan path ini sesuai dengan lokasi folder gambar Anda
-                    downloadButton.download = file;
-                }, 3000);
-
-                found = true;
-                break;
-            }
-        }
-    }
-
-    if (!found) {
-        hasil.textContent = "Nama Tidak Ada! (bagi yang namanya tidak ada tapi sudah berdonasi, bisa Contact Panitia dengan mengirimkan bukti foto berdonasi/foto buku SKP yg sudah di TTD dan diCAP oleh yang bertugas piket)";
-    }
+  if (!found) {
+    hasil.textContent =
+      "Nama Tidak Ada! (bagi yang namanya tidak ada tapi sudah berdonasi, bisa Contact Panitia dengan mengirimkan bukti foto berdonasi/foto buku SKP yg sudah di TTD dan diCAP oleh yang bertugas piket)";
+  }
 }
