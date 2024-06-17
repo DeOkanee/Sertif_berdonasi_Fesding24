@@ -166,11 +166,12 @@ const dataGambar = {
   "Ni Putu Lestari Dewi": { folder: "dps", file: "Ni Putu Lestari Dewi.png" },
   "Ni Made Desi Trisnawati": {
     folder: "dps",
-    file: "Ni Made Desi Trisnawati.png",
+    file: "Ni Made Desi Trisnawati.png",  },
 
-//BANGLI
+    //BANGLI
 
-  },
+// "Nama": { folder: "bangli/dps", file: "Nama.png"},
+
   "Ni Wayan Harini": { folder: "bangli", file: "Ni Wayan Harini.png" },
   "Ni Kadek Sri Surya Ningsih": {
     folder: "bangli",
