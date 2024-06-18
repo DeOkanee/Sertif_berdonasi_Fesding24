@@ -344,6 +344,166 @@ const dataGambar = {
     folder: "bangli",
     file: "I Gusti Agung Istri Tri Widyantari.png",
   },
+
+  // DATA REKAP FOLDER
+    "Ni Luh Komang Leoni": {
+      folder: "rekap",
+      file: "Ni Luh Komang Leoni.png",
+    },
+    "Ni Kadek Ariadi": {
+      folder: "rekap",
+      file: "Ni Kadek Ariadi.png",
+    },
+    "Ni Kadek Dwi Indrayani": {
+      folder: "rekap",
+      file: "Ni Kadek Dwi Indrayani.png",
+    },
+    "I Putu Surya Baktimarta": {
+      folder: "rekap",
+      file: "I Putu Surya Baktimarta.png",
+    },
+    "Ni Kadek Sri Widiantari": {
+      folder: "rekap",
+      file: "Ni Kadek Sri Widiantari.png",
+    },
+    "Ni Kadek Dhea Tiyas Natasya": {
+      folder: "rekap",
+      file: "Ni Kadek Dhea Tiyas Natasya.png",
+    },
+    "Ni Putu Sintya Pramesti Dewi": {
+      folder: "rekap",
+      file: "Ni Putu Sintya Pramesti Dewi.png",
+    },
+    "Ni Nengah Sintya Wulandari": {
+      folder: "rekap",
+      file: "Ni Nengah Sintya Wulandari.png",
+    },
+    "Sang Ayu Made Verina Dwijayanti": {
+      folder: "rekap",
+      file: "Sang Ayu Made Verina Dwijayanti.png",
+    },
+    "Ni Wayan Samiasih": {
+      folder: "rekap",
+      file: "Ni Wayan Samiasih.png",
+    },
+    "Ni Kadek Dwi Novayanti": {
+      folder: "rekap",
+      file: "Ni Kadek Dwi Novayanti.png",
+    },
+    "Ni Kadek Rianti": {
+      folder: "rekap",
+      file: "Ni Kadek Rianti.png",
+    },
+    "Pande Luh Mas Pradnya Suari": {
+      folder: "rekap",
+      file: "Pande Luh Mas Pradnya Suari.png",
+    },
+    "Ni Made Ari Mastini": {
+      folder: "rekap",
+      file: "Ni Made Ari Mastini.png",
+    },
+    "Ni Putu Satya Pradewi": {
+      folder: "rekap",
+      file: "Ni Putu Satya Pradewi.png",
+    },
+    "Ni Kadek Winda Dwi Utari": {
+      folder: "rekap",
+      file: "Ni Kadek Winda Dwi Utari.png",
+    },
+    "Ni Kadek Ariningsih": {
+      folder: "rekap",
+      file: "Ni Kadek Ariningsih.png",
+    },
+    "Dewa Ayu Nyoman Anggreni": {
+      folder: "rekap",
+      file: "Dewa Ayu Nyoman Anggreni.png",
+    },
+    "Ni Putu Denia Mediantari": {
+      folder: "rekap",
+      file: "Ni Putu Denia Mediantari.png",
+    },
+    "Anak Agung Istri Mayun Sri Wulandari": {
+      folder: "rekap",
+      file: "Anak Agung Istri Mayun Sri Wulandari.png",
+    },
+    "I Komang Wiadnyana Saputra": {
+      folder: "rekap",
+      file: "I Komang Wiadnyana Saputra.png",
+    },
+    "I Nyoman Gede Sila Nawa": {
+      folder: "rekap",
+      file: "I Nyoman Gede Sila Nawa.png",
+    },
+    "Ida Bagus Deni Suyoga": {
+      folder: "rekap",
+      file: "Ida Bagus Deni Suyoga.png",
+    },
+    "I Komang Fajar Hary Putra": {
+      folder: "rekap",
+      file: "I Komang Fajar Hary Putra.png",
+    },
+    "I Komang Deni Aditya Saputra": {
+      folder: "rekap",
+      file: "I Komang Deni Aditya Saputra.png",
+    },
+    "Ni Putu Seri Rahayu": {
+      folder: "rekap",
+      file: "Ni Putu Seri Rahayu.png",
+    },
+    "Ni Komang Sri Widhi Astuti": {
+      folder: "rekap",
+      file: "Ni Komang Sri Widhi Astuti.png",
+    },
+    "Ni Made Meliandari": {
+      folder: "rekap",
+      file: "Ni Made Meliandari.png",
+    },
+    "Ni Putu Listia Dewi": {
+      folder: "rekap",
+      file: "Ni Putu Listia Dewi.png",
+    },
+    "Gusti Ayu Made Ary Santika Dewi": {
+      folder: "rekap",
+      file: "Gusti Ayu Made Ary Santika Dewi.png",
+    },
+    "Ni Putu Sintya Lestari": {
+      folder: "rekap",
+      file: "Ni Putu Sintya Lestari.png",
+    },
+    "I Dewa Ayu Agung Rani Widyawati": {
+      folder: "rekap",
+      file: "I Dewa Ayu Agung Rani Widyawati.png",
+    },
+    "Ni Komang Ana Pratini": {
+      folder: "rekap",
+      file: "Ni Komang Ana Pratini.png",
+    },
+    "Ni Wayan Suci Aningsih": {
+      folder: "rekap",
+      file: "Ni Wayan Suci Aningsih.png",
+    },
+    "Ni Wayan Sinta Widya Warsiki": {
+      folder: "rekap",
+      file: "Ni Wayan Sinta Widya Warsiki.png",
+    },
+    "Ni Kadek Dian Rismawati": {
+      folder: "rekap",
+      file: "Ni Kadek Dian Rismawati.png",
+    },
+    "Putu Tia Pranciska Sintya Dewi": {
+      folder: "rekap",
+      file: "Putu Tia Pranciska Sintya Dewi.png",
+    },
+    "Ni Wayan Harini": {
+      folder: "rekap",
+      file: "Ni Wayan Harini.png",
+    },
+    "Ni Kadek Sri Suryaningsih": {
+      folder: "rekap",
+      file: "Ni Kadek Sri Suryaningsih.png",
+    },
+  
+  
 };
 
 function cariGambar() {
