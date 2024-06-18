@@ -642,7 +642,65 @@ const dataGambar = {
       folder: "rekapnew",
       file: "Ni Putu Novi Sukma Dewi.png",
     },
-  
+  // NEWW
+    
+  "Ni Kadek Ari Setyawati": {
+    folder: "rekapnew",
+    file: "Ni Kadek Ari Setyawati.png",
+  },
+  "Dewa Ayu Purnama Astuti Asih": {
+    folder: "rekapnew",
+    file: "Dewa Ayu Purnama Astuti Asih.png",
+  },
+  "Ni Putu Listia Manik": {
+    folder: "rekapnew",
+    file: "Ni Putu Listia Manik.png",
+  },
+  "Ni Putu Tika Ardiantari": {
+    folder: "rekapnew",
+    file: "Ni Putu Tika Ardiantari.png",
+  },
+  "I Gusti Ayu Savita Ari Dewi": {
+    folder: "rekapnew",
+    file: "I Gusti Ayu Savita Ari Dewi.png",
+  },
+  "Ni Luh Ayu Sunni Andari": {
+    folder: "rekapnew",
+    file: "Ni Luh Ayu Sunni Andari.png",
+  },
+  "Gusti Ayu Made Dwi Pradnyani": {
+    folder: "rekapnew",
+    file: "Gusti Ayu Made Dwi Pradnyani.png",
+  },
+  "I Ketut Adiartha Pradana": {
+    folder: "rekapnew",
+    file: "I Ketut Adiartha Pradana.png",
+  },
+  "I Dewa Gede Agung Prathama": {
+    folder: "rekapnew",
+    file: "I Dewa Gede Agung Prathama.png",
+  },
+  "I Ketut Dedi Setia Edi": {
+    folder: "rekapnew",
+    file: "I Ketut Dedi Setia Edi.png",
+  },
+  "Gusti Ayu Kade Riska Dwipayani": {
+    folder: "rekapnew",
+    file: "Gusti Ayu Kade Riska Dwipayani.png",
+  },
+  "Gusti Ayu Putu Anom Paramita Sari": {
+    folder: "rekapnew",
+    file: "Gusti Ayu Putu Anom Paramita Sari.png",
+  },
+  "Ni Luh Putu Anggi Setiawati": {
+    folder: "rekapnew",
+    file: "Ni Luh Putu Anggi Setiawati.png",
+  },
+  "Ni Made Mira Puspita Sari": {
+    folder: "rekapnew",
+    file: "Ni Made Mira Puspita Sari.png",
+  },
+
   
 };
 
