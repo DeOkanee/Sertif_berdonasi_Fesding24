@@ -625,8 +625,24 @@ const dataGambar = {
       file: "Komang Asri Tri Apsari.png",
     },
   
+  //REKAP KECAG
+    "Ni Kadek Putri Wahyuningsih": {
+      folder: "rekapkecag",
+      file: "Ni Kadek Putri Wahyuningsih.png",
+    },
+    "Ni Putu Witari Dita Siwi": {
+      folder: "rekapkecag",
+      file: "Ni Putu Witari Dita Siwi.png",
+    },
+    "Ni Kadek Indah Dwi Anggraeni": {
+      folder: "rekapkecag",
+      file: "Ni Kadek Indah Dwi Anggraeni.png",
+    },
+    "Ni Putu Novi Sukma Dewi": {
+      folder: "rekapkecag",
+      file: "Ni Putu Novi Sukma Dewi.png",
+    },
   
-   
   
 };
 
