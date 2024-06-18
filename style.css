@@ -72,7 +72,7 @@ header {
 .input-group {
   justify-content: center;
   display: flex;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -129,7 +129,9 @@ label {
     width: 90%;
     margin-top: 80px;
   }
-
+  .input-group {
+    width: 100%;
+  }
   input {
     width: 90%;
     margin: 10px 0;
@@ -151,7 +153,9 @@ label {
   .title {
     font-size: 10px;
   }
-
+  .input-group {
+    width: 98%;
+  }
   .container {
     width: 85%;
     margin-top: 100px;
