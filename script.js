@@ -109,9 +109,9 @@ const dataGambar = {
     folder: "dps",
     file: "Kadek Resta Diah Kusuma Dewi.png",
   },
-  "I Putu Dedik Noviadtara": {
+  "I Putu Dedik Noviantara": {
     folder: "dps",
-    file: "I Putu Dedik Noviadtara.png",
+    file: "I Putu Dedik Noviantara.png",
   },
   "Ni Wayan Indriani": { folder: "dps", file: "Ni Wayan Indriani.png" },
   "Ni Made Dwi Andini": { folder: "dps", file: "Ni Made Dwi Andini.png" },
