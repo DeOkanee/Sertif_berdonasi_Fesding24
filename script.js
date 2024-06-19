@@ -163,6 +163,8 @@ const dataGambar = {
     folder: "dps",
     file: "Ni Made Laksmi Purnama Dewi.png",
   },
+  
+  "Ni Made Laksmi Purnama Dewi": { folder: "dps", file: "Ni Made Laksmi Purnama Dewi.png" },
   "Ni Putu Lestari Dewi": { folder: "dps", file: "Ni Putu Lestari Dewi.png" },
   "Ni Made Desi Trisnawati": {
     folder: "dps",
